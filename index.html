@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <i class="uil uil-instagram"></i>
+                <h2>INSTA</h2>
+            </div>
+            <div class="search-bar">
+                <span class="material-symbols-outlined">search</span>
+                <input type="search" placeholder="search names, handles, stories" id="">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="createpost" >Create</label>
+                <div class="profile-photo"><img src="img/me1.jpeg"></div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="left">
+                <div class="profile">
+                    <div class="profile-photo"><img src="img/me1.jpeg"></div>
+                    <div class="handle">
+                        <h4>Tiibag</h4>
+                        <p class="text-muted">@Tiibag__</p>
+                    </div>
+                </div>
+                <div class="sidebar" id="sidebar">
+                    <ul>
+                        <li><a class="menu-item" id="Home"><span class="material-symbols-outlined">home</span><h3>Home</h3></a></li>
+                        <li><a class="menu-item"><span class="material-symbols-outlined">explore</span><h3>Explore</h3></a></li>
+                        <li >
+                            <a class="menu-item" id="notifications">
+                                <span class="material-symbols-outlined">notifications <small class="notify-count">9+</small></span>
+                                <h3>Notifications</h3>
+                                <div class="notifications-popup">
+                                    <div>
+                                        <div class="profile-photo"><img src="img/image1.JPG"></div>
+                                        <div class="notify-body">
+                                            <b>Adeleke Ade</b> Accepted your follow request <small class="text-muted">2seconds ago</small>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="profile-photo"><img src="img/vladimir-fedotov-zvnnRTSJ8QI-unsplash.jpg"></div>
+                                        <div class="notify-body">
+                                            <b>Badoxil</b> Liked your post <small class="text-muted">2mins ago</small>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="profile-photo"><img src="img/laura-kennedy-WO1BdQuVJbI-unsplash.jpg"></div>
+                                        <div class="notify-body">
+                                            <b>Adesense</b> Sent a friend request <small class="text-muted">4hours ago</small>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="profile-photo"><img src="img/spiderman.jpg"></div>
+                                        <div class="notify-body">
+                                            <b>Kenny Babs</b> Looked at your profile <small class="text-muted">1 day ago</small>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="profile-photo"><img src="img/mahbod-akhzami-79iyvY_vzCc-unsplash.jpg"></div>
+                                        <div class="notify-body">
+                                            <b>Novelty Ray</b> Commented on your photo <small class="text-muted">2days ago</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>    
+                        </li>
+                        <li><a class="menu-item" id="messages-notifications"><span class="material-symbols-outlined">mail <small class="notify-count">3+</small></span><h3>Messages</h3></a></li>
+                        <li><a class="menu-item"><span class="material-symbols-outlined">bookmarks</span><h3>Bookmark</h3></a></li>
+                        <li><a class="menu-item"><span class="material-symbols-outlined">insights</span><h3>Analytics</h3></a></li>
+                        <li><a class="menu-item" id="theme"><span class="material-symbols-outlined">toggle_on</span><h3>Theme</h3></a></li>
+                        <li><a class="menu-item"><span class="material-symbols-outlined">settings</span><h3>Settings</h3></a></li>
+                    </ul>
+                </div>
+                <button class="sidebar-toggle"><i class="uil uil-angle-left-b"></i></button>
+                <label class="btn btn-primary" for="createpost">Create post</label>
+            </div>
+            <div class="middle">
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo"><img src="img/me1.jpeg"></div>
+                        <p class="name">Your story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo"><img src="img/image1.JPG"></div>
+                        <p class="name">Folashade aluko</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo"><img src="img/smile-2072907_1920.jpg"></div>
+                        <p class="name">frenzy gide</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo"><img src="img/profile-4.jpg"></div>
+                        <p class="name">Tishe Omoniyi</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo"><img src="img/damin.jpg"></div>
+                        <p class="name">Ayelagbe Damiloa</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo"><img src="img/papers.jpg"></div>
+                        <p class="name">Metry Arsen</p>
+                    </div>
+                </div>
+                <form class="create-post">
+                    <div class="profile-photo"><img src="img/me1.jpeg"></div>
+                    <input type="text" placeholder="What's on your mind?" id="create-post">
+                    <input type="submit" value="post" class="btn btn-primary">
+                </form>
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="photo"><img src="/img/image1.JPG"></div>
+                                <div class="ingo"><h3>Kancho Oka</h3><small>Dubai, 15mins ago</small></div>
+                            </div>
+                            <span><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        <div class="photo"><img src="/img/mancity.JPG"></div>
+                        <div class="action-buttons">
+                            <div class="interactions">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-message"></i></span>
+                            </div>
+                            <div class="bookmark"><span><i class="uil uil-bookmark"></i></span></div>
+                        </div>
+                        <div class="likedby">
+                            <span><img src="/img/dortm.jpg"></span>
+                            <span><img src="/img/meeting-281043_1920.jpg"></span>
+                            <span><img src="img/tpee.jpg"></span>
+                            <p>Liked by <b>Emma</b> and <b>3,265 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Kancho Oka</b> Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. <span class="hashtag">#Lifestyle #Travel #School</span></p>
+                        </div>
+                        <div class="comment text-muted">
+                            view all 36 comments
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="photo"><img src="/img/prague-5296812_1920.jpg"></div>
+                                <div class="ingo"><h3>Omoniyin Os</h3><small>Toronto, 51mins ago</small></div>
+                            </div>
+                            <span><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        <div class="photo"><img src="/img/morning-1850893_1920.jpg"></div>
+                        <div class="action-buttons">
+                            <div class="interactions">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-message"></i></span>
+                            </div>
+                            <div class="bookmark"><span><i class="uil uil-bookmark"></i></span></div>
+                        </div>
+                        <div class="likedby">
+                            <span><img src="/img/dortm.jpg"></span>
+                            <span><img src="/img/meeting-281043_1920.jpg"></span>
+                            <span><img src="img/tpee.jpg"></span>
+                            <p>Liked by <b>winifred</b> and <b>90,6287 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Omoniyin Os</b> Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. <span class="hashtag">#Lifestyle #Travel #School</span></p>
+                        </div>
+                        <div class="comment text-muted">
+                            view all 18 comments
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="photo"><img src="/img/laura-kennedy-WO1BdQuVJbI-unsplash.jpg"></div>
+                                <div class="ingo"><h3>Lazman juggernauts</h3><small>Manchester, 1day ago</small></div>
+                            </div>
+                            <span><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        <div class="photo"><img src="/img/dj.jpg"></div>
+                        <div class="action-buttons">
+                            <div class="interactions">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-message"></i></span>
+                            </div>
+                            <div class="bookmark"><span><i class="uil uil-bookmark"></i></span></div>
+                        </div>
+                        <div class="likedby">
+                            <span><img src="/img/dortm.jpg"></span>
+                            <span><img src="/img/meeting-281043_1920.jpg"></span>
+                            <span><img src="img/tpee.jpg"></span>
+                            <p>Liked by <b>nacho</b> and <b>36,905 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lazman juggernauts</b> Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. <span class="hashtag">#Lifestyle #Travel #School</span></p>
+                        </div>
+                        <div class="comment text-muted">
+                            view all 265 comments
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="photo"><img src="/img/spiderman.jpg"></div>
+                                <div class="ingo"><h3>Oluwatishe Omoniyi</h3><small>Lagos, 2days ago</small></div>
+                            </div>
+                            <span><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        <div class="photo"><img src="/img/smile-2072907_1920.jpg"></div>
+                        <div class="action-buttons">
+                            <div class="interactions">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-message"></i></span>
+                            </div>
+                            <div class="bookmark"><span><i class="uil uil-bookmark"></i></span></div>
+                        </div>
+                        <div class="likedby">
+                            <span><img src="/img/dortm.jpg"></span>
+                            <span><img src="/img/meeting-281043_1920.jpg"></span>
+                            <span><img src="img/tpee.jpg"></span>
+                            <p>Liked by <b>Judas</b> and <b>7,035 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Oluwatishe Omoniyi</b> Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. <span class="hashtag">#Lifestyle #Travel #School</span></p>
+                        </div>
+                        <div class="comment text-muted">
+                            view all 9 comments
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="photo"><img src="/img/mahbod-akhzami-79iyvY_vzCc-unsplash.jpg"></div>
+                                <div class="ingo"><h3>frankie dedin</h3><small>Los Angeles, 8mins ago</small></div>
+                            </div>
+                            <span><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        <div class="photo"><img src="/img/dortm.jpg"></div>
+                        <div class="action-buttons">
+                            <div class="interactions">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-message"></i></span>
+                            </div>
+                            <div class="bookmark"><span><i class="uil uil-bookmark"></i></span></div>
+                        </div>
+                        <div class="likedby">
+                            <span><img src="/img/dortm.jpg"></span>
+                            <span><img src="/img/meeting-281043_1920.jpg"></span>
+                            <span><img src="img/tpee.jpg"></span>
+                            <p>Liked by <b>jponn</b> and <b>3,265 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>frankie dedin</b> Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. <span class="hashtag">#Lifestyle #Travel #School</span></p>
+                        </div>
+                        <div class="comment text-muted">
+                            view all 36 comments
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="photo"><img src="/img/image1.JPG"></div>
+                                <div class="ingo"><h3>Kancho</h3><small>Dubai, 15mins ago</small></div>
+                            </div>
+                            <span><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        <div class="photo"><img src="/img/donuts.jpg"></div>
+                        <div class="action-buttons">
+                            <div class="interactions">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-message"></i></span>
+                            </div>
+                            <div class="bookmark"><span><i class="uil uil-bookmark"></i></span></div>
+                        </div>
+                        <div class="likedby">
+                            <span><img src="/img/dortm.jpg"></span>
+                            <span><img src="/img/meeting-281043_1920.jpg"></span>
+                            <span><img src="img/tpee.jpg"></span>
+                            <p>Liked by <b>Emma</b> and <b>3,265 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Kancho Oka</b> Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. <span class="hashtag">#Lifestyle #Travel #School</span></p>
+                        </div>
+                        <div class="comment text-muted">
+                            view all 36 comments
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><i class="uil uil-edit"></i>
+                    </div>
+                    <div class="search-bar">
+                        <span class="material-symbols-outlined">search</span>
+                        <input type="search" placeholder="search message" id="search-message">
+                    </div>
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-request">Request(9)</h6>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="/img/dortm.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Edem</h5>
+                            <p class="text-muted">Just woke up, Whats up?</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo"><img src="/img/damin.jpg"></div>
+                        <div class="message-body">
+                            <h5>Brits Alex</h5>
+                            <p class="text-bold">What are you up to?</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="/img/papers.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Sam Index</h5>
+                            <p class="text-bold">Good Morning!</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo active"><img src="/img/prague-5296812_1920.jpg"></div>
+                        <div class="message-bold">
+                            <h5>Ronnie F</h5>
+                            <p class="text-muted">Bruhh????</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="/img/laura-kennedy-WO1BdQuVJbI-unsplash.jpg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Kent Esun</h5>
+                            <p class="text-bold">Look at you ffs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="friend-requests">
+                    <h4>Request</h4>
+                    <div class="requests">
+                        <div class="info">
+                            <div class="profile-photo"><img src="/img/morning-1850893_1920.jpg"></div>
+                            <div>
+                                <h5>Binta sharwama</h5>
+                                <p class="text-muted">8 mutual friends</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn success">Accept</button>
+                            <button class="btn danger">Decline</button>
+                        </div>
+                    </div>
+                    <div class="requests">
+                        <div class="info">
+                            <div class="profile-photo"><img src="/img/meeting-281043_1920.jpg"></div>
+                            <div>
+                                <h5>Anderso pena</h5>
+                                <p class="text-muted">29 mutual friends</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn success">Accept</button>
+                            <button class="btn danger">Decline</button>
+                        </div>
+                    </div>
+                    <div class="requests">
+                        <div class="info">
+                            <div class="profile-photo"><img src="/img/prague-5296812_1920.jpg"></div>
+                            <div>
+                                <h5>Apple Juice</h5>
+                                <p class="text-muted">85 mutual friends</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn success">Accept</button>
+                            <button class="btn danger">Decline</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="customize-theme">
+        <div class="card">
+            <div class="background">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5 for="bg-2">Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Dark</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="sandbox.js"></script>
+</body>
+</html>
